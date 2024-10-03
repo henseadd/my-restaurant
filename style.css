@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box
+}
+*{
+    margin: 0;
+}
+img{
+    display: block;
+    max-width:100%;
+}
+
+/* :root{
+    --main-color: ;
+    --secondary color: ;
+    --base-padding: ;
+
+}*/
+
+
+h1,h2{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h3, p{
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.flex-wrapper{
+    font-size: 2rem;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 1rem;
+    background-color: #1dded5;
+}
+
+nav a{
+    color: ##e8f3f1;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+    .logo {
+        margin-right:auto;
+        margin-width:10px;
+        padding: 0rem;
+        max-height: 100px;
+    }
+
+
+.hero{
+        min-height:100vh;
+        background-image: url(./images/pokeBowlBackground.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #e8f3f1;
+}
+
+h1{
+    color: #545479;
+}
+h2{
+    text-align: center;
+    color:#545479;
+    font-size:2rem;
+}
+
+.about{
+ text-align: center;
+}
+
+.base-gallery{
+    background color:#f8f8f8;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card{
+    padding: 2rem;
+    max-width: 800px;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.card h3{
+    font-family: system-ui;
+    /* text-transform: */
+    font-size: 1.5rem;
+    margin-bottom: auto;
+}
+.card-image{
+    align-self: center;
+}
+
+
+.protein-gallery{
+    background color:#f8f8f8;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.toppings-gallery{
+    background color:#f8f8f8;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
